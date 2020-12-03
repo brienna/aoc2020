@@ -12,6 +12,7 @@ def check_passwords(which_part):
         num_occurrences = passwords[idx].count(letter)
         min, max = map(int, rule.split(' ')[0].split('-'))
 
+        # if letter_appearances >= min and letter_appearances <= max:
         if which_part == 'a':
             if min <= num_occurrences <= max:
                 total += 1
