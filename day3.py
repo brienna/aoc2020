@@ -24,9 +24,9 @@ def ride(right, down):
 
 a = ride(3, 1)
 print(a)
+#submit(a, part="a", day=3, year=2020)
 
 b = ride(1, 1) * a * ride(5, 1) * ride(7, 1) * ride(1, 2)
 print(b)
-
 #submit(b, part="b", day=3, year=2020)
 
