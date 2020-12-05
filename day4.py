@@ -23,7 +23,7 @@ for passport in passports:
         if byr and iyr and eyr and hcl and ecl and pid and hgt:
             if (hgt[2] == 'cm' and 150 <= int(hgt[1]) <= 193) or (hgt[2] == 'in' and 59 <= int(hgt[1]) <= 76):
                 valid_b += 1
-                print(passport,'\n')
+                #print(passport,'\n')
 
 print(valid_a)
 #submit(valid_a, part="a", day=4, year=2020)
